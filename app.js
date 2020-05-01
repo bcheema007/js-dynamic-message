@@ -20,4 +20,5 @@ function getTimeOfDay() {
     }
 
     h1.innerText = message;
+    h1.setAttribute('style', 'border: 2px solid red;');
 }
