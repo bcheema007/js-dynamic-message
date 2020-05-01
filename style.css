@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20%;
+}
+
+h1 {
+    border: 2px solid red;
+    padding: 20px;
+    color: orangered;
+}
+
+button {
+    margin-top: 1rem;
+    border: none;
+    color: rgb(50, 169, 216);
+    background-color: aliceblue;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: lightskyblue;
+    color: white;
+}
